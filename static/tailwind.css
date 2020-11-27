@@ -1,0 +1,19 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  a:hover {
+    @apply underline;
+  }
+}
+
+h1 {
+  font-weight: bolder;
+  padding: 1rem;
+}
+p {
+  padding-bottom: 1rem;
+}
