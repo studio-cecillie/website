@@ -9,14 +9,13 @@
     @apply underline;
   }
   h1, h2 {
-    @apply text-lg;
+    @apply mb-4;
     @apply font-bold;
   }
-}
-
-h1, h2 {
-  padding-bottom: 1rem;
-}
-p {
-  padding-bottom: 1rem;
+  h1 {
+    @apply text-lg;
+  }
+  p {
+    @apply mb-4;
+  }
 }
