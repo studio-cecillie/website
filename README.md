@@ -1,6 +1,6 @@
 # studio.cecillie.fr
 
-Le site du Studio Cecillie.
+Le site web du studio cecillie.
 
 ## Development
 
