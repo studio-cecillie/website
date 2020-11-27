@@ -553,9 +553,17 @@ a:hover {
 }
 
 h1, h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h1 {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -31356,14 +31364,6 @@ h1, h2 {
 }
 
 /* Base styles */
-
-h1, h2 {
-  padding-bottom: 1rem;
-}
-
-p {
-  padding-bottom: 1rem;
-}
 
 @media (min-width: 640px) {
   .sm\:container {
