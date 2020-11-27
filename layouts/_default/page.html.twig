@@ -12,17 +12,19 @@
     #}
     <link rel="stylesheet" href="{{ asset('/styles.css',{minify:false,fingerprint:false})|url }}" />
   </head>
-  <body class="flex flex-col h-screen bg-saumon">
-    <main class="flex flex-col h-full mx-5 md:mx-10 justify-center">
-      <div class="mt-5 font-serif text-3xl md:text-7xl font-extrabold text-gray-500 text-opacity-25 text-center">{{ site.title }}</div>
-      <div class="mt-5 md:mt-20 text-gray-700 text-center">
-        {%- block content ~%}
-        {{ page.content }}
-        {%- endblock ~%}
-      </div>
+  <body class="flex flex-col min-h-screen bg-saumon mx-5 md:mx-10">
+    <header class="my-20 font-serif text-3xl md:text-7xl font-extrabold text-gray-400 text-opacity-25 text-center">
+      {{~ site.title ~}}
+    </header>
+    <main class="flex-grow text-gray-700 text-center font-light">
+      {%- block content ~%}
+      {{~ page.content ~}}
+      {%- endblock ~%}
     </main>
-    <footer class="flex m-3 text-sm text-gray-400 justify-center">
-      studio cecillie – Studio technique et créatif –&nbsp;<a href="https://cecillie.fr">Cécile Ricordeau</a>&nbsp;&amp;&nbsp;<a href="https://arnaudligny.fr">Arnaud Ligny</a>&nbsp;– Montreuil –&nbsp;<a href="https://studio.cecillie.fr">studio.cecillie.fr</a>
+    <footer class="">
+      <div class="m-3 text-sm text-gray-400 text-center justify-end">
+        studio cecillie – Studio technique et créatif –&nbsp;<a href="https://cecillie.fr">Cécile Ricordeau</a>&nbsp;&amp;&nbsp;<a href="https://arnaudligny.fr">Arnaud Ligny</a>&nbsp;– Montreuil –&nbsp;<a href="https://studio.cecillie.fr">studio.cecillie.fr</a>
+      <div>
     </footer>
   </body>
 </html>
