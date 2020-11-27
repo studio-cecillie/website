@@ -8,11 +8,14 @@
   a:hover {
     @apply underline;
   }
+  h1, h2 {
+    @apply text-lg;
+    @apply font-bold;
+  }
 }
 
-h1 {
-  font-weight: bolder;
-  padding: 1rem;
+h1, h2 {
+  padding-bottom: 1rem;
 }
 p {
   padding-bottom: 1rem;
