@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="{{ asset('/styles.css',{minify:false,fingerprint:false})|url }}" />
   </head>
   <body class="flex flex-col min-h-screen bg-saumon mx-5 md:mx-10">
-    <header class="my-20 font-serif text-3xl md:text-7xl font-extrabold text-gray-400 text-opacity-25 text-center">
+    <header class="my-20 font-serif text-3xl md:text-7xl font-extrabold text-center text-gray-400 text-opacity-25">
       {{~ site.title ~}}
     </header>
-    <main class="flex-grow text-gray-700 text-center font-light">
+    <main class="flex-grow text-gray-700 text-center font-light mx-auto max-w-screen-md">
       {%- block content ~%}
       {{~ page.content ~}}
       {%- endblock ~%}
     </main>
-    <footer class="">
-      <div class="m-3 text-sm text-gray-400 text-center justify-end">
+    <footer>
+      <div class="m-3 text-sm text-center justify-end text-gray-400 font-light">
         studio cecillie – Studio technique et créatif –&nbsp;<a href="https://cecillie.fr">Cécile Ricordeau</a>&nbsp;&amp;&nbsp;<a href="https://arnaudligny.fr">Arnaud Ligny</a>&nbsp;– Montreuil –&nbsp;<a href="https://studio.cecillie.fr">studio.cecillie.fr</a>
       <div>
     </footer>
