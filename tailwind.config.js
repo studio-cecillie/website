@@ -1,7 +1,11 @@
 module.exports = {
-  purge: [
-    './layouts/**/*.html.twig',
-  ],
+  purge: {
+    enabled: true,
+    mode: 'all',
+    content: [
+      './layouts/**/*.html.twig',
+    ]
+  },
   theme: {
     extend: {
       colors: {
