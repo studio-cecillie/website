@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     mode: 'all',
     content: [
       './layouts/**/*.html.twig',
@@ -12,5 +12,6 @@ module.exports = {
         'saumon': '#FCF0EC',
       }
     }
-  }
+  },
+  darkMode: 'media'
 }
