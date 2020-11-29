@@ -6,7 +6,7 @@ else
 fi
 php cecil.phar --version
 
-echo "Build CSS"
+echo "Started CSS build"
 npx tailwindcss-cli build ./static/tailwind.css -o ./static/styles.css
 
 echo "Started Cecil build"
