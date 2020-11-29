@@ -1,6 +1,5 @@
 module.exports = {
   purge: {
-    enabled: false,
     mode: 'all',
     content: [
       './layouts/**/*.html.twig',
