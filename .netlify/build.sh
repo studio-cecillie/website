@@ -10,7 +10,7 @@ echo "Started CSS build"
 npx tailwindcss-cli build ./static/tailwind.css -o ./static/styles.css
 
 echo "Started Cecil build"
-if [[ $1 == "preview" ]]; then
+if [[ $CECIL_ENV != "production" ]]; then
   php cecil.phar build -vv --baseurl=$DEPLOY_PRIME_URL --drafts
 else
   php cecil.phar build -v --baseurl=$URL --postprocess
