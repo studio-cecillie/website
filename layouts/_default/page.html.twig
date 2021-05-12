@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.language }}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {%~ include 'partials/metatags.html.twig' ~%}
-    {%- if getenv('NODE_ENV') == 'production' ~%}
+    {%- if getenv('CECIL_ENV') == 'production' ~%}
     <style>
-	    {{- asset('/styles.css')|inline ~}}
+	    {{- asset('styles.css')|inline ~}}
     </style>
     {%- else ~%}
-    <link rel="stylesheet" href="{{ asset('/styles.css',{minify:false,fingerprint:false})|url }}" />
+    <link rel="stylesheet" href="{{ asset('styles.css',{minify:false,fingerprint:false})|url }}" />
     {%- endif ~%}
   </head>
   <body class="flex flex-col min-h-screen bg-saumon mx-5 md:mx-10 dark:bg-gray-800">
