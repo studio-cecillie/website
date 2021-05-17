@@ -1,4 +1,5 @@
 _site/
 .cecil/
+.cache/
 styles.css
 node_modules/
