@@ -10,6 +10,3 @@
 
 [context.branch-deploy.environment]
   CECIL_ENV = "branch"
-
-[[plugins]]
-  package = "netlify-plugin-cecil-cache"
