@@ -3,3 +3,9 @@ baseline: Le studio de conseil technique et créatif
 description: Le studio cecillie est le studio de conseil technique et créatif de Cécile Ricordeau et Arnaud Ligny.
 baseurl: https://studio.cecillie.fr/
 image: og-image.png
+netlify:
+  redirects:
+    - from: https://studio-cecillie.netlify.app/*
+      to: https://studio.cecillie.fr/:splat
+      status: 301
+      force: true
