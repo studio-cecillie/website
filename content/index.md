@@ -1,5 +1,5 @@
 ---
-title: Le studio cecillie est un studio de conseil technique et créatif
+title: Le studio cecillie est un studio de conseil technique & créatif
 ---
 
 ## Cécile Ricordeau est directrice de création
