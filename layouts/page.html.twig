@@ -10,7 +10,7 @@
 	    {{- asset('styles.css')|inline ~}}
     </style>
     {%- else ~%}
-    <link rel="stylesheet" href="{{ asset('styles.css',{minify:false,fingerprint:false})|url }}" />
+    <link rel="stylesheet" href="{{ asset('styles.css',{minify:false,fingerprint:false}) }}" />
     {%- endif ~%}
   </head>
   <body class="flex flex-col min-h-screen bg-saumon mx-5 md:mx-10 dark:bg-gray-800">
