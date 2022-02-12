@@ -1,5 +1,7 @@
 _site/
 .cecil/
 .cache/
-styles.css
+vendor/
+themes/
+assets/styles.css
 node_modules/
