@@ -1,0 +1,7 @@
+{
+  "name": "studio-cecillie",
+  "devDependencies": {
+    "postcss": "^8.4",
+    "tailwindcss": "^3.0"
+  }
+}

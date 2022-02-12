@@ -1,11 +1,7 @@
 module.exports = {
-  purge: {
-    enabled: process.env.CECIL_ENV == 'production',
-    mode: 'all',
-    content: [
-      './layouts/**/*.html.twig',
-    ]
-  },
+  content: [
+    './layouts/**/*.html.twig',
+  ],
   theme: {
     extend: {
       colors: {
@@ -13,5 +9,4 @@ module.exports = {
       }
     }
   },
-  darkMode: 'media'
 }
