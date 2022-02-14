@@ -12,4 +12,4 @@ Avant de rejoindre le studio en 2020, Arnaud a travaillé pour des maisons de lu
 
 ---
 
-Avec le studio cecillie, [Cécile Ricordeau](https://cecillie.fr) et [Arnaud Ligny](https://arnaudligny.fr) mettent à votre disposition leurs expertises complémentaires du digital pour développer à vos côtés des projets sur-mesure.
+Avec le studio cecillie, Cécile Ricordeau et Arnaud Ligny mettent à votre disposition leurs expertises complémentaires du digital pour développer à vos côtés des projets sur-mesure.
