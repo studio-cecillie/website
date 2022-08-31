@@ -6,7 +6,7 @@
 /* Base styles */
 @layer base {
   a {
-    @apply underline;
+    @apply hover:underline;
   }
   h1, h2 {
     @apply mb-4;
