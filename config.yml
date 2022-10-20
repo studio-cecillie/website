@@ -19,3 +19,7 @@ netlify:
       to: https://studio.cecillie.fr/:splat
       status: 301
       force: true
+    - from: https://studio.cecillie.fr/*
+      to: https://cecillie.fr
+      status: 301
+      force: true
